@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and DINKU ARMANDO</title>
-</head>
-<body>
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-</body>
+    <header>
+      <h1 id="title">Armando Dinku's Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform </p>
+    </header>
+    <form id="survey-form" action="">
+      <label id="name-label" for="name">Name</label>
+       <input id="name" type="text" required placeholder="please enter your name"> <br>
+       <label id="email-label" for="email">email:</label>
+    <form> <input id="email" type="email" required placeholder="please enter your email address"/>   <br>
+      <!--step 6 is skipped-->
+      <label id="number-label" for="number">Age :</label>
+      <input type="number" id="number" name="age" min="10" max="100" placeholder="your age">
+        <br>
+      <input type="submit" value="Submit No"></input>
+      <label for="roles">Which option best describes your current role?</label>
+        <select name="roles" id="dropdown">
+        <option value="volvo">Student</option>
+        <option value="saab">FullTime Job</option>
+        <option value="mercedes">FullTime learner</option>
+        <option value="audi">Other</option>
+        </select>
+        <p>Would you recommend freeCodeCamp to a friend?
+        </p>
+        <div>
+          <input type="radio" id="name" name="drone" value="huey"
+                 checked>
+          <label for="huey">Huey</label>
+        </div>
+        <div>
+            <input type="radio" id="name" name="drone" value="huey"
+                   checked>
+            <label for="huey">Huey</label>
+          </div>
+          <div>
+            <input type="radio" id="name" name="drone" value="huey"
+                   checked>
+            <label for="huey">Huey</label>
+          </div>
+          <p>What would you like to see improved? (Check all that apply)</p>
+          <form action="/action_page.php">
+            <input type="checkbox" name="vehicle1" value="value ">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" name="vehicle2" value="value ">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" name="vehicle3" value="value " checked>
+            <label for="vehicle3"> I have a boat</label><br><br>
+            <input type="submit" value="Submit">
+         
+          <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..." spellcheck="false"></textarea>
+          </div>
+          <input type="submit" value="submit" id= "submit">submit</input>
+    </form>
+   
+    <script  src="js/index.js"></script>
+  </body>
 </html>
